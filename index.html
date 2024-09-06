@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="./clases.css">
+</head>
+<body>
+   <div class="cont-grande">
+    <p>calculadora</p>
+    <h1 id="resultado">aqui veras el resultado de tu operacion</h1>
+    <div class="cont1">
+        <input type="number" id="num1" placeholder="primer numero">
+        <input type="number" id="num2" placeholder="segundo numero">
+    </div>
+    <div class="cont2">
+        <button onclick="calculadora('suma')">sumar</button>
+        <button onclick="calculadora('resta')">restar</button>
+        <button onclick="calculadora('multiplicacion')">multiplicar</button>
+        <button onclick="calculadora('division')">dividir</button>
+        <button onclick="calculateTrig('sin')">sin</button>
+        <button onclick="calculateTrig('cos')">cos</button>
+        <button onclick="calculateTrig('tan')">tan</button>
+        <button onclick="calculateLog()">log</button>
+        <button onclick="calculatePower()">x²</button>
+        <button onclick="calculateSqrt()">√x</button>
+
+    </div>
+</body>
+<script src="./main.js"></script>
+   </div>
+</html>
